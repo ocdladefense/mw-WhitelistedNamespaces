@@ -1,0 +1,1 @@
+# mw-white-listed-namespaces
