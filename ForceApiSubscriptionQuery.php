@@ -9,8 +9,7 @@ use Clickpdx\ResourceLoader;
 use RestApiAuthenticationException;
 use RestApiInvalidUrlException;
 
-class ForceApiSubscriptionQuery
-{
+class ForceApiSubscriptionQuery {
 
 	 	
 	private $debug = array();
@@ -27,6 +26,8 @@ class ForceApiSubscriptionQuery
 	Ocdla_Publish_Work_Email__c,
 	Ocdla_Website__c
 	FROM Contact WHERE Id='%s'";
+
+	public function __construct(){}
 	
 
 	private function getMessages($type = 'debug')
